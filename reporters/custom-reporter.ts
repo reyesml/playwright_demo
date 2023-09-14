@@ -12,7 +12,7 @@ class CustomReporter implements Reporter {
   }
 
   onTestBegin(test: TestCase) {
-    log(`Starting test ${test.title} ${test}`);
+    log(`Starting test ${test.title}`);
   }
 
   onTestEnd(test: TestCase, result: TestResult) {
